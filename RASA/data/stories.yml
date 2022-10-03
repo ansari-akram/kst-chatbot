@@ -1,0 +1,228 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: resources
+  steps:
+  - intent: resources
+  - action: utter_resources
+
+- story: available_resources
+  steps:
+  - intent: available_resources
+  - action: utter_available_resources
+
+- story: profiles_sharing
+  steps:
+  - intent: profiles_sharing
+  - action: utter_profiles_sharing
+
+- story: rate_card
+  steps:
+  - intent: rate_card
+  - action: utter_rate_card
+
+- story: short_Long_term
+  steps:
+  - intent: short_Long_term
+  - action: utter_short_Long_term
+
+- story: remote_support
+  steps:
+  - intent: remote_support
+  - action: utter_remote_support
+
+- story: Visa
+  steps:
+  - intent: Visa
+  - action: utter_Visa
+
+- story: bench_size
+  steps:
+  - intent: bench_size
+  - action: utter_bench_size
+
+- story: custom_software_cost
+  steps:
+  - intent: custom_software_cost
+  - action: utter_custom_software_cost
+
+- story: software_needs
+  steps:
+  - intent: software_needs
+  - action: utter_software_needs
+
+- story: ensure_confidentiality
+  steps:
+  - intent: ensure_confidentiality
+  - action: utter_ensure_confidentiality
+
+- story: Quality_Reliability
+  steps:
+  - intent: Quality_Reliability
+  - action: utter_Quality_Reliability
+
+- story: support
+  steps:
+  - intent: support
+  - action: utter_support
+
+- story: progressed
+  steps:
+  - intent: progressed
+  - action: utter_progressed
+
+- story: owns_software
+  steps:
+  - intent: owns_software
+  - action: utter_owns_software
+
+- story: project_quotation
+  steps:
+  - intent: project_quotation
+  - action: utter_project_quotation
+
+- story: software
+  steps:
+  - intent: software
+  - action: utter_software
+
+- story: software_products
+  steps:
+  - intent: software_products
+  - action: utter_software_products
+
+- story: dna_snt
+  steps:
+  - intent: dna_snt
+  - action: utter_dna_snt
+
+- story: smartnet
+  steps:
+  - intent: smartnet
+  - action: utter_smartnet
+
+- story: region_product
+  steps:
+  - intent: region_product
+  - action: utter_region_product
+
+- story: product_warranty
+  steps:
+  - intent: product_warranty
+  - action: utter_product_warranty
+
+- story: warranty_service
+  steps:
+  - intent: warranty_service
+  - action: utter_warranty_service
+
+- story: delivery_timeline
+  steps:
+  - intent: delivery_timeline
+  - action: utter_delivery_timeline
+
+- story: deliver_outside_uae
+  steps:
+  - intent: deliver_outside_uae
+  - action: utter_deliver_outside_uae
+
+- story: credit_provide
+  steps:
+  - intent: credit_provide
+  - action: utter_credit_provide
+
+- story: Cisco_service
+  steps:
+  - intent: Cisco_service
+  - action: utter_Cisco_service
+
+- story: cisco_technical_support
+  steps:
+  - intent: cisco_technical_support
+  - action: utter_cisco_technical_support
+
+- story: cisco_product
+  steps:
+  - intent: cisco_product
+  - action: utter_cisco_product
+
+- story: charge_AMC
+  steps:
+  - intent: charge_AMC
+  - action: utter_charge_AMC
+
+- story: laptop
+  steps:
+  - intent: laptop
+  - action: utter_laptop
+
+- story: deal_servers
+  steps:
+  - intent: deal_servers
+  - action: utter_deal_servers
+
+- story: server_management_services
+  steps:
+  - intent: server_management_services
+  - action: utter_server_management_services
+
+- story: AMC
+  steps:
+  - intent: AMC
+  - action: utter_AMC
+
+- story: ceo_image
+  steps:
+  - intent: ceo_image
+  - action: utter_ceo_image
+
+- story: address_uae
+  steps:
+  - intent: address_uae
+  - action: utter_address_uae
+
+- story: address_india
+  steps:
+  - intent: address_india
+  - action: utter_address_india
+
+- story: contact_number
+  steps:
+  - intent: contact_number
+  - action: utter_contact_number
+
+#- story: bench_size
+#  steps:
+#  - intent: bench_size
+#  - action: utter_bench_size
+
+
+

@@ -1,0 +1,250 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: resources
+  examples: |
+    - What kind of resources do you have?
+
+- intent: available_resources
+  examples: |
+    - How soon can the resources be available?
+
+- intent: profiles_sharing
+  examples: |
+    - What is turn around time for profiles sharing?
+
+- intent: rate_card
+  examples: |
+    - Is there any fixed rate card?
+
+- intent: short_Long_term
+  examples: |
+    - Do you provide resources on short or Long term?
+
+- intent: remote_support
+  examples: |
+    - Do you provide resources for remote support
+
+- intent: Visa
+  examples: |
+    - Who will take care of the Visa?
+
+- intent: bench_size
+  examples: |
+    - What is your bench size?
+
+- intent: custom_software_cost
+  examples: |
+    - What does custom software cost
+
+- intent: software_needs
+  examples: |
+    - Do we need to have a meeting to discuss our software needs?
+
+- intent: ensure_confidentiality
+  examples: |
+    - How do you ensure confidentiality?
+
+- intent: Quality_Reliability
+  examples: |
+    - How can I be confident about Quality & Reliability.
+
+- intent: support
+  examples: |
+    - We are worried about support. How will the team handle it?
+
+- intent: progressed
+  examples: |
+    - How do we keep informed ourselves about the progressed?
+
+- intent: owns_software
+  examples: |
+    - Who owns the software that you write for me?
+
+- intent: project_quotation
+  examples: |
+    - How can I help to receive a project quotation in the shortest possible time?
+
+- intent: software
+  examples: |
+    - In what technologies you develop the software?
+
+- intent: software_products
+  examples: |
+    - What software products do you deal in?
+
+- intent: bench_size
+  examples: |
+    - What is your bench size?
+
+- intent: dna_snt
+  examples: |
+    - can you provide the DNA, SNT on end username?
+
+- intent: smartnet
+  examples: |
+    - is it Smartnet enabled?
+
+- intent: region_product
+  examples: |
+    - what is the region of the product?
+
+- intent: product_warranty
+  examples: |
+    - Other region product can be warranty able?
+
+- intent: warranty_service
+  examples: |
+    - How many years warranty do you provide?
+
+- intent: delivery_timeline
+  examples: |
+    - What is your delivery timeline?
+
+- intent: deliver_outside_uae
+  examples: |
+    - Do you deliver outside UAE?
+
+- intent: credit_provide
+  examples: |
+    - Do you provide credit?
+
+- intent: Cisco_service
+  examples: |
+    - Do you provide CISCO support services?
+
+- intent: cisco_technical_support
+  examples: |
+    - Do you provide CISCO technical support services at client location?
+
+- intent: cisco_product
+  examples: |
+    - Do you deal in all CISCO products or only specific?
+
+- intent: laptop
+  examples: |
+    - Do you sell Laptops?
+
+- intent: deal_servers
+  examples: |
+    - Do you deal in Servers
+
+- intent: server_management_services
+  examples: |
+    - Do you provide server management services?
+
+- intent: AMC
+  examples: |
+    - Do you provide AMC
+
+- intent: charge_AMC
+  examples: |
+    - How much do you charge for AMC?
+    - What is the charges for AMC?
+
+- intent: ceo_image
+  examples: |
+    - Who is the CEO of kernelsphere technologies?
+    - Who is the Founder of kernelsphere technologies?
+    - Who is the Managing director of kernelsphere technologies?
+
+- intent: address_uae
+  examples: |
+    - What is your location in UAE
+    - UAE location
+    - whats your address in Dubai
+    - whats your address in UAE
+
+- intent: address_india
+  examples: |
+    - What is your location in india
+    - India location
+    - whats your address in India
+
+- intent: contact_number
+  examples: |
+    - How can i contact you?
+    - Whats your contact number?
+    - Contact number

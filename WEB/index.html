@@ -1,0 +1,43 @@
+<head>
+	<link rel="stylesheet" href="css/chatbot.css">
+</head>
+
+<body>
+	<div class="chat-container"></div>
+	<img src="images/ks-bg.jpeg" />
+	<div id="chatbot" class="main-card collapsed">
+		<button id="chatbot_toggle">
+			<ion-icon name="chatbubbles-outline" size="small" id="open"></ion-icon>
+			<ion-icon name="close-outline" size="small" class="close" id="close"></ion-icon>
+		</button>
+		<div class="main-title">
+			<span>Kernel Sphere AI Chatbot</span>
+		</div>
+		<div class="cred-form active" id="cred-form">
+			<form onsubmit="return false">
+				<div class="user-form">
+					<input type="text" placeholder="Name" id="user-name" value="Ansari Akram" autocomplete="on"
+						required />
+					<input type="email" placeholder="Email Address" id="user-email" value="ansariakramobaid@gmail.com"
+						autocomplete="on" required />
+					<input type="number" placeholder="Phone Number" id="user-phone" value="8104837463" autocomplete="on"
+						required />
+					<input type="submit" value="Start" id="user-submit" onclick="checkForm()">
+				</div>
+			</form>
+		</div>
+		<div class="chat-area" id="message-box">
+		</div>
+		<div class="line"></div>
+		<div class="input-div">
+			<input class="input-message" name="message" type="text" id="message" placeholder="Type your message..." />
+			<button class="input-send" onclick="send()">
+				<ion-icon name="send"></ion-icon>
+			</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/chatbot.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</script>
+</body>

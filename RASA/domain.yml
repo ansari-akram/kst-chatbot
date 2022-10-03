@@ -1,0 +1,139 @@
+version: "3.0"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - resources
+  - available_resources
+  - profiles_sharing
+  - rate_card
+  - short_Long_term
+  - remote_support
+  - Visa
+  - bench_size
+  - custom_software_cost
+  - software_needs
+  - ensure_confidentiality
+  - Quality_Reliability
+  - support
+  - progressed
+  - owns_software
+  - project_quotation
+  - software
+  - software_products
+  - dna_snt
+  - smartnet
+  - region_product
+  - product_warranty
+  - warranty_service
+  - delivery_timeline
+  - deliver_outside_uae
+  - credit_provide
+  - Cisco_service
+  - cisco_technical_support
+  - cisco_product
+  - charge_AMC
+  - laptop
+  - deal_servers
+  - server_management_services
+  - AMC
+  - ceo_image
+  - address_india
+  - address_uae
+  - contact_number
+responses:
+  utter_greet:
+    - text: Hey! How are you?
+  utter_resources:
+    - text: Our pool consists of resources in NOC, Network Security, Infra support, Server Management, Cloud Management, Oracle & SQL databases.
+  utter_available_resources:
+    - text: Depends on the skills requested for
+  utter_profiles_sharing:
+    - text: 24 hours
+  utter_rate_card:
+    - text: Sorry, No as it would depend on skills
+  utter_short_Long_term:
+    - text: We are open for both.
+  utter_cheer_up:
+    - image: https://i.imgur.com/nGF1K8f.jpg
+      text: "Here is something to cheer you up:"
+  utter_did_that_help:
+    - text: Did that help you?
+  utter_happy:
+    - text: Great, carry on!
+  utter_goodbye:
+    - text: Bye
+  utter_remote_support:
+    - text: Yes we do
+  utter_Visa:
+    - text: Depends on the duration of the engagement and other requirements
+  utter_bench_size:
+    - text: We have a pool of resources who can be deputed to your project.
+  utter_custom_software_cost:
+    - text: The cost of your software will depend on its requirements, complexity, systems to be integrated and the support needed. We will be happy to discuss your requirements and provide an optimized quote.
+  utter_software_needs:
+    - text: Physical meeting may not be necessary but one meeting is required to understand your requirements for providing a detailed scope of work.
+  utter_ensure_confidentiality:
+    - text: "Our employees are bound by company Confidentiality and Non-Disclosure clauses. Additionally, upon request from customers & sensitivity of the projects, a special development center is created which is inaccessible to others. "
+  utter_Quality_Reliability:
+    - text: Our projects are developed using Agile scrum development methodology to ensure high quality deliverables.
+  utter_support:
+    - text: We offer a range of on-going support services. Our SLAs can go as low as 2 business hours, but most of our customers rarely need that level of support.
+  utter_progressed:
+    - text: We use Agile scrum development methodology. You will be an integral part of sprint planning - from the start during sprint planning and again for the review before the release date.
+  utter_owns_software:
+    - text: Once the project is completed, you own everything that is necessary to build, maintain, or extend the software, such as executable files, scripts, project files, source code, etc.
+  utter_project_quotation:
+    - text: Preparing detailed requirements will help our developers to understand your vision entirely, and help us to give you an accurate quote. It is ideal to make user stories, where you explain the function and the end result you are expecting.
+  utter_software:
+    - text: "•\tArtificial Intelligence •\tMachine Learning •\tMobile Development "
+  utter_software_products:
+    - text: "•\tAI enabled Chatbot •\tThermal Screening Enabled applications •\tHealthcare Management •\tHR Management "
+  utter_dna_snt:
+    - text: Yes once’s you provide end user details we will apply the DNA, and smart net on end user’s name
+  utter_smartnet:
+    - text: Yes, it’s smart net enabled.
+  utter_region_product:
+    - text: our sources are CISCO distributors from UK, Netherland, Australia region and will work in any region.
+  utter_product_warranty:
+    - text: yes it carries the standard CISCO warranty.
+  utter_warranty_service:
+    - text: we pass on the Standard CISCO warranty, but we can help you in extending the warranty by paying the relevant CISCO fee.
+  utter_delivery_timeline:
+    - text: It depends on the part number.
+  utter_deliver_outside_uae:
+    - text: Yes, we can deliver most of the location. Shipping cost will be extra.
+  utter_credit_provide:
+    - text: Depend on the credibility of client.
+  utter_Cisco_service:
+    - text: Yes, we do.
+  utter_cisco_technical_support:
+    - text: Yes, we do.
+  utter_cisco_product:
+    - text: Yes, we deal in all CISCO products.
+  utter_laptop:
+    - text: Yes, we do sell of all brands
+  utter_deal_servers:
+    - text: Yes, we do sell of all brands
+  utter_server_management_services:
+    - text: Yes, we have resources to address these needs both remotely & onsite.
+  utter_AMC:
+    - text: Yes, we do
+  utter_charge_AMC:
+    - text: "AMC cost will depend on the services to be provided and the Hardware to be maintained. Based on initial assessment we can share the estimate. "
+  utter_ceo_image:
+    - image: https://kernelspheretech.com/wp-content/uploads/2020/09/member-6.jpg
+      text: Imran Kazi is the Founder and Managing Director of KernelSphere Technologies
+  utter_address_india:
+    - text: 17A, Dattani Plaza, Andheri Kurla Road, Saki Naka, Near Safed Pool, Mumbai
+  utter_address_uae:
+    - text: 308-A, 3rd floor, Al Mankhool (BMI) Building, Khalid Bin Waleed Street, Bur Dubai, Dubai
+  utter_contact_number:
+    - text: You can Contact us on +971-50 251 1441
